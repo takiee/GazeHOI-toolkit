@@ -1,8 +1,10 @@
 # Gaze-guided Hand-Object Interaction Synthesis: Dataset and Method
+![](doc/teaser.png)
 [paper](https://arxiv.org/abs/2403.16169) |
 [video](https://www.youtube.com/watch?v=BR9qkQQpUfg) | 
 [project page](https://takiee.github.io/gaze-hoi/)
 ## Dataset
+![](doc/dataset.png)
 Download link: [GoogleDrive](https://drive.google.com/drive/folders/1_3i8Pw_GLx4lDmULPVxJMWNG8fTa2rzY?usp=drive_link)
 ### Data Structure
 ```
