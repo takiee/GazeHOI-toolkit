@@ -64,3 +64,9 @@ right_joints = right_output.joints - right_output.joints[:, 0].unsqueeze(1) + ri
 print(right_params.shape)
 print(right_joints.shape)
 print(right_verts.shape)
+
+# gaze data
+gaze_ray = np.load(join(seq_path,'gaze.npy'))
+gaze_point = np.load(join(seq_path,'gaze_point.npy'))
+print(gaze_ray.shape)
+print(gaze_point.shape)
