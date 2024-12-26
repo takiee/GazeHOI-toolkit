@@ -4,6 +4,26 @@
 [project page](https://takiee.github.io/gaze-hoi/)
 ## Dataset
 Download link: [GoogleDrive](https://drive.google.com/drive/folders/1_3i8Pw_GLx4lDmULPVxJMWNG8fTa2rzY?usp=drive_link)
+### Data Structure
+```
+0303_data/
+├── 0001/
+│   ├── mano/
+│   │   ├── poses_left.npy 
+│   │   └── poses_right.npy 
+│   ├── 001_book_4_pose_trans.npy
+│   ├── 007_pen_3_blue_pose_trans.npy
+│   ├── 007_pen_4_green_pose_trans.npy
+│   ├── 007_pen_5_orange_pose_trans.npy
+│   ├── ego_calib.npy
+│   ├── gaze.npy # gaze ray
+│   ├── gaze_point.npy
+│   └── meta.pkl # Metadata, including active object labels, hand flags, and other details.
+├── 0002/
+│   ├── ...
+└── ...
+```
+
 
 ## Citation
 If you find our work useful in your research, please consider citing:
