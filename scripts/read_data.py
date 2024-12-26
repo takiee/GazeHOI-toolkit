@@ -17,7 +17,7 @@ seq = str(args.seq_id).zfill(4)
 seq_path = join(path,seq)
 
 # meta data
-with open(join(seq_path,'meta.pkl'),'rb')as f:
+with open(join(seq_path,'info.pkl'),'rb')as f:
     meta = pickle.load(f)
 print(meta)
 

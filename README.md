@@ -20,7 +20,7 @@ release_data/
 │   ├── ego_calib.npy
 │   ├── gaze.npy # gaze ray
 │   ├── gaze_point.npy
-│   └── meta.pkl # Metadata, including active object labels, hand flags, and other details.
+│   └── info.pkl # Metadata, including active object labels, hand flags, and other details.
 ├── 0002/
 │   ├── ...
 └── ...
