@@ -26,10 +26,25 @@ release_data/
 └── ...
 ```
 
+
+### Hand Model Requirements
+
+This project requires the following components for mapping pose and shape parameters to hand joints and vertices:
+
+1. **[Manotorch](https://github.com/lixiny/manotorch)**: A PyTorch-based library for handling MANO models. Please follow the installation instructions provided on the [Manotorch GitHub repository](https://github.com/lixiny/manotorch).
+
+2. **MANO Model Files**: The MANO model files can be downloaded from the official [MANO website](https://mano.is.tue.mpg.de/). Follow the instructions on the site to obtain the required files.
+
 ### Load Data
+You can use the following script as a reference to read the required data:
+
 ```
 python scripts/read_data.py --seq_id 1
 ```
+
+
+- **`--seq_id`**: Specifies the sequence ID of the data you want to read.
+
 
 ## Citation
 If you find our work useful in your research, please consider citing:
