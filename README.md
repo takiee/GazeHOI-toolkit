@@ -26,6 +26,10 @@ Download link: [GoogleDrive](https://drive.google.com/drive/folders/1_3i8Pw_GLx4
 └── ...
 ```
 
+### Load Data
+```
+python scripts/read_data.py --seq_id 1
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing:
