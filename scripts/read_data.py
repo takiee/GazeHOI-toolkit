@@ -8,7 +8,7 @@ from manotorch.manolayer import ManoLayer
 import torch
 
 path = './release_data/'
-obj_root = './object/'
+obj_root = './release_obj/'
 parser = argparse.ArgumentParser(description="Read data for a specific sequence ID.")
 parser.add_argument('--seq_id', type=int, required=True, help="Sequence ID to read data for.")
 args = parser.parse_args()
