@@ -8,7 +8,7 @@
 Download link: [GoogleDrive](https://drive.google.com/drive/folders/1_3i8Pw_GLx4lDmULPVxJMWNG8fTa2rzY?usp=drive_link)
 ### Data Structure
 ```
-0303_data/
+release_data/
 ├── 0001/
 │   ├── mano/
 │   │   ├── poses_left.npy 
